@@ -1,4 +1,2 @@
-- refactor profiling module
+# TODOs
 - unit tests (pytest)
-- use case diagram
-- class diagram

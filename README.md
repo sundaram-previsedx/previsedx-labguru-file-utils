@@ -5,11 +5,9 @@ Software for processing Labguru-derived files.
 - [previsedx-labguru-file-utils](#previsedx-labguru-file-utils)
   - [Improvements](#improvements)
   - [Use Cases](#use-cases)
-  - [Use Cases](#use-cases-1)
   - [Class Diagrams](#class-diagrams)
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Exported scripts](#exported-scripts)
   - [Contributing](#contributing)
   - [To-Do/Coming Next](#to-docoming-next)
   - [CHANGELOG](#changelog)
@@ -20,14 +18,9 @@ Software for processing Labguru-derived files.
 
 Please see the [TODO](docs/TODO.md) for a list of upcoming improvements.
 
-
 ## Use Cases
 
-<img src="use_cases.png" width="400" height="400" alt="Use Cases diagram">
-
-## Use Cases
-
-<img src="use_cases.png" width="400" height="400" alt="Use Cases diagram">
+<img src="use_cases.png" width="400" height="200" alt="Use Case diagram">
 
 ## Class Diagrams
 
@@ -40,12 +33,19 @@ Please see the [INSTALL](docs/INSTALL.md) guide for instructions.
 ## Usage
 
 ```python
-from previsedx_labguru_file_utils import Manager
+from previsedx_labguru_file_utils import constants
+from previsedx_labguru_file_utils import LabguruXlsxParser
 
+# You can override any of the following by providing your own configuration file:
+# - the sheet name
+# - expected column headers
+# - the Excel library (default is openpyxl)
 config_file = "conf/config.yaml"
+if not os.path.exists(config_file):
+  config_file = constants.DEFAULT_CONFIG_FILE
 config = yaml.safe_load(Path(config_file).read_text())
 
-manager = Manager(
+parser = Parser(
     config=config,
     config_file=config_file,
     logfile=logfile,
@@ -55,18 +55,9 @@ manager = Manager(
 )
 
 infile = "labguru.xlsx"
-records = manager.get_records(infile)
+records = parser.get_records(infile)
 
 ```
-
-## Exported scripts
-
-To use the exported script for ... :
-
-```bash
-
-```
-
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first

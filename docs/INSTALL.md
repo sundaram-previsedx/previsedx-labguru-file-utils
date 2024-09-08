@@ -5,7 +5,7 @@
 Now you can install your package in your Python virtual environment
 
 ```shell
-pip install tbd
+pip install previsedx-labguru-file-utils
 ```
 
 ### Clone project
@@ -13,8 +13,8 @@ pip install tbd
 You can `git clone` this project.
 
 ```shell
-git clone https://github.com/jai-python3/tbd.git
-cd tbd
+git clone https://github.com/sundaram-previsex/previsedx-labguru-file-utils.git
+cd previsedx-labguru-file-utils
 ```
 
 ### Local pip install
@@ -36,7 +36,7 @@ You can uninstall like this:
 
 ```bash
 source venv/bin/activate
-pip uninstall tbd
+pip uninstall previsedx-labguru-file-utils
 make clean
 ```
 
@@ -45,7 +45,7 @@ make clean
 If you modify the code in this package in your local virtual environment:
 
 ```shell
-pip uninstall tbd
+pip uninstall previsedx-labguru-file-utils
 make clean
 python setup.py sdist
 pip install .
