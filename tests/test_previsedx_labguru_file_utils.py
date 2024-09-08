@@ -5,7 +5,7 @@
 
 import unittest
 
-from previsedx_labguru_file_utils import previsedx_labguru_file_utils
+from previsedx_labguru_file_utils import previsedx_labguru_file_utils # noqa
 
 
 class TestPrevisedx_labguru_file_utils(unittest.TestCase):

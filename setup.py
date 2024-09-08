@@ -19,7 +19,7 @@ requirements = [
     "pandas"
 ]
 
-test_requirements = [ ]
+test_requirements = []
 
 setup(
     author="Jaideep Sundaram",

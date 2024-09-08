@@ -1,4 +1,4 @@
-name: tbd CI
+name: previsedx-labguru-file-utils CI
 
 on:
   workflow_dispatch: # Allow for execution on demand.
