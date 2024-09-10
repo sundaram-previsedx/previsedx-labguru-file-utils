@@ -1,6 +1,6 @@
-# Welcome to TBD
+# Welcome to PreviseDx Labguru File Utils
 
-TBD
+Collection of Python modules for processing Labguru Excel .xlsx files.
 
 ## Commands
 
@@ -8,5 +8,5 @@ The following exported scripts are available:
 
 ## References
 
-[GitHub](https://github.com/jai-python3/TBD)
-[PYPI](https://pypi.org/project/TBD/)
+[GitHub](https://github.com/sundaram-previsedx/previsedx-labguru-file-utils)
+[PYPI](https://pypi.org/project/previsedx-labguru-file-utils/)

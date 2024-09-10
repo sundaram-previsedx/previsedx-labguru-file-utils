@@ -33,7 +33,7 @@ plugins:
       # python:
       handlers:
         python:
-          paths: [tbd]
+          paths: [previsedx-quantstudio-file-utils]
         # import_root: jira_python_utils
         # import_root: jira-python-utils
 nav:
