@@ -28,11 +28,11 @@ theme:
       accent: lime
 
 extra:
-    social:
-      - icon: fontawesome/brands/github
-        link: https://github.com/sundaram-previsedx
-      - icon: fontawesome/brands/linkedin
-        link: https://www.linkedin.com/in/jsundaram/
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/sundaram-previsedx
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/jsundaram/
 
 repo_url: https://github.com/sundaram-previsedx/previsedx-labguru-file-utils
 repo_name: sundaram-previsedx/previsedx-labguru-file-utils

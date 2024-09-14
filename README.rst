@@ -20,7 +20,7 @@ Collection of Python software for processing Labguru files
 
 
 * Free software: GNU General Public License v3
-* Documentation: https://previsedx-labguru-file-utils.readthedocs.io.
+* Documentation: https://sundaram-previsedx.github.io/previsedx-labguru-file-utils/
 
 
 Features
